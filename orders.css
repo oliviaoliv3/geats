@@ -1,0 +1,76 @@
+ul{
+    list-style: none;
+}
+body {
+    background-color: palevioletred
+}
+
+.bigDiv {
+    display: flex;
+}
+
+.menuList {
+    border: solid 2px black;
+    margin: 10px;
+    height: 250px;
+
+}
+
+.name {
+    border: solid 2px black;
+    margin: 10px;
+    height: 35px;
+    width: 250px;
+}
+
+.number {
+    border: solid 2px black;
+    margin: 10px;
+    height: 35px;
+    width: 250px;
+}
+
+.addy {
+    border: solid 2px black;
+    margin: 10px;
+    height: 35px;
+    width: 250px;
+}
+
+.deliver {
+    display: flex;
+    justify-content: center;
+}
+
+.container.row.info {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 50px;
+}
+
+h5 {
+    color: black;
+    padding-left: 25px;
+
+}
+
+body {
+    background-color: palevioletred;
+}
+
+.right {
+    border: solid 2px black;
+    height: 600px;
+    overflow: scroll;
+
+}
+
+.subTotal {
+    display: flex;
+    align-self: center;
+    float: bottom;
+}
+
+
